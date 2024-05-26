@@ -1,11 +1,17 @@
-import type { Component } from 'solid-js';
+import { createSignal, type Component } from 'solid-js';
 import styles from './App.module.css';
 
 const App: Component = () => {
+
+
   return (
-    <div class={styles.App}>
-      test
-    </div>
+    <>
+      <h1 id={styles.title}>Solid Space</h1>
+
+      <div id={styles.stars}>
+
+      </div>
+    </>
   );
 };
 
